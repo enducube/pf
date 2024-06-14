@@ -1,0 +1,107 @@
+body {
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #222;
+    color: #ddd;
+    margin: 0;
+}
+
+.flashthing {
+    position:absolute;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    background-color: #eee;
+    top:5%;
+    margin: auto;
+    width: 40px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #222;
+}
+
+#statistics {
+    position:absolute;
+    left: 0;
+    right: 0;
+
+    text-align: center;
+    background-color: #444;
+    top:15vh;
+    margin: auto;
+    width: 30vh;
+    height: 70vh;
+    padding: 5px;
+    border-radius: 10px;
+    color: #eee;
+}
+a.closebutton {
+color: #eee;
+position:inherit;
+text-align: right;
+margin: auto;
+right: 10%;
+font-size: x-large;
+}
+
+#sharebutton {
+    color: #eee;
+    padding: 5px;
+    position:inherit;
+    text-align: right;
+    margin: auto;
+    right: 10%;
+    font-size: x-large;
+    background-color:rgb(61, 205, 61);
+    border-radius: 10px;
+    }
+
+
+.wordbutton {
+    display: block;
+    margin:auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ddd;
+    color: #ddd;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 15vh;
+    width: 50vh;
+    max-width: 100%;
+    text-align: center;
+    background-color: #333;
+    font-size: large;
+}
+.wrong {
+    background-color: rgb(188, 43, 43);
+}
+.right {
+    background-color: rgb(61, 205, 61);
+}
+
+#buttonlist {
+    overflow-y: scroll;
+    height: 80vh;
+    width: 100%;
+    background-color: #333;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #fff0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

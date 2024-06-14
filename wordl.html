@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <link rel="stylesheet" href="style_wordle.css">
+        <title>the real wordle</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    </head>
+    <body>
+        <h1>the real wordle</h1>
+        <h3 id="guessesleft">guesses left: 10</h3>
+        <div id="statistics" style="display:none;">
+            <a class="closebutton" onclick="document.getElementById('statistics').style.display = 'none';">X</a>
+            <p>wins: <span id="wins">0</span></p>
+            <p>losses: <span id="losses">0</span></p>
+            <p>next wordle in: <span id="timeleft">0</span></p>
+            <a id="sharebutton" href="wordl.html#share">share</a>
+        </div>
+        <div id="buttonlist">
+        </div>
+        <script src="wordlebutcool/cool.js"></script>
+    </body>
+</html>
